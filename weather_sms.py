@@ -19,7 +19,7 @@ class weather_sms:
 
 
 	def get_weather(self):
-		url = "http://www.wunderground.com/q/zmw:00000.1.61641"
+		url = "http://www.wunderground.com/q/zmw:00000.1.61641" # Dakar, Senegal
 
 		req = requests.get(url)
 
